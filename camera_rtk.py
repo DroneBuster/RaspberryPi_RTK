@@ -9,11 +9,11 @@
 # EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED
 # WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE.
 
-from sbp.client.driver.pyserial_driver import PySerialDriver
+from sbp.client.drivers.pyserial_driver import PySerialDriver
 from sbp.client import Handler, Framer
 from sbp.observation import *
 
-import argp
+import argparse
 import math
 import os
 import numpy as np

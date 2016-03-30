@@ -24,7 +24,6 @@ gps_tow  = 0.0
 gps_week = 0
 name = Str('Rover')
 rinex_file = None
-link.add_callback(obs_packed_callback, SBP_MSG_OBS)
 
 _obs_table_list = List()
 obs = Dict()  
